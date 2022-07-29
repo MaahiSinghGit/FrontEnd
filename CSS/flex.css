@@ -1,0 +1,35 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.flex-Container{
+    height: auto;
+    width: 75vw;
+    display: flex;
+    /* row, column column-reverse */
+    flex-direction: row; 
+    flex-wrap: wrap-reverse;
+    /* nowrap wrap-reverse */
+}
+.flex-Container div{
+    height: 200px;
+    width: 200px;
+}
+.div1{
+
+    background-color: aqua;
+    flex-shrink: 4;
+}
+.div2{
+    background-color: blue;
+}
+.div3{
+    background-color: blueviolet;
+    flex-grow: 10;
+}
+.div4{
+    background-color: burlywood;
+}
+.div5{
+    background-color: crimson;
+}
