@@ -3,7 +3,8 @@ body{
     padding: 0%;
 }
 .flex-Container{
-    height: auto;
+    height: 75vh;
+    background-color: bisque;
     width: 75vw;
     display: flex;
     /* row, column column-reverse */
