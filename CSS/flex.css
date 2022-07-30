@@ -10,22 +10,39 @@ body{
     flex-direction: row; 
     flex-wrap: wrap-reverse;
     /* nowrap wrap-reverse */
+
+    /* justify content-Adjust element of flex box acourding to their main axis (flex direction of flex box*/
+    /* justify-content: space-around;
+    justify-content: space-between;
+    justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+
+
+    /*  Align item- is uses for align item within the flex box using to cross axis (which is perpendicular to main axis) */
+    /* align-items: baseline; */
+    /* align-items: center;
+    align-items: stretch;
+   
+    align-items: flex-start; */
+    align-items: flex-end;
+
 }
 .flex-Container div{
-    height: 200px;
-    width: 200px;
+    height: 50px;
+    width: 50px;
 }
 .div1{
 
     background-color: aqua;
-    flex-shrink: 4;
+    /* flex-shrink: 4; */
 }
 .div2{
     background-color: blue;
 }
 .div3{
     background-color: blueviolet;
-    flex-grow: 10;
+    /* flex-grow: 10; */
 }
 .div4{
     background-color: burlywood;
