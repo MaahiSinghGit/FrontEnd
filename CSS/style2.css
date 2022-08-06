@@ -35,3 +35,36 @@ Relative:-
     text-align: left;
     text-transform: capitalize;
  }
+ .gradients{
+        height: 500px;
+        width: 500px;
+        margin: 40px;
+        border: 1px solid royalblue;
+        /* background-image: linear-gradient(red,cyan, blue); */
+        /* background-image: linear-gradient(blue, pink 50%); */
+        /* Using degree */
+        /*  background-image: linear-gradient(0deg, red, cyan,pink); */
+        /*  background-image: linear-gradient(120deg, red, cyan,pink); */
+        background-image: linear-gradient(90deg, red, cyan,pink);
+    }
+    .gradients1{
+        height: 500px;
+        width: 500px;
+        margin: 40px;
+        border: 1px solid royalblue;
+        background: radial-gradient(red, cyan , blue);
+}
+.gradients2{
+        height: 500px;
+        width: 500px;
+        margin: 40px;
+        border: 1px solid royalblue;
+        background: repeating-linear-gradient(to top right, red, blue, pink 10px);
+}
+.gradients3{
+        height: 500px;
+        width: 500px;
+        margin: 40px;
+        border: 1px solid royalblue;
+        background: repeating-radial-gradient(red, blue, pink 15px);
+}
