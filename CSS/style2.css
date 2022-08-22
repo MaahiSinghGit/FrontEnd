@@ -68,3 +68,21 @@ Relative:-
         border: 1px solid royalblue;
         background: repeating-radial-gradient(red, blue, pink 15px);
 }
+.psudo-classes{
+        height: 70vh;
+        width: auto;
+    }
+.first{
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+}
+.second{
+        height: 100px;
+        width: 100px;
+        background-color: blueviolet;
+}
+.first:hover{
+        height: 150px;
+        background-color: brown;
+}
