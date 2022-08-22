@@ -1,0 +1,16 @@
+#LightBox{
+    height: 0;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: all 3s ease-in-out;
+}
+#LightBox:target{
+    height: 30%;
+    width: 30%;
+    background-color: lightgrey;
+    top: 25%;
+    left: 25%;
+}
