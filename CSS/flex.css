@@ -58,7 +58,6 @@ body{
 }
  .first::first-line{
     font-weight: 500;
-
   } 
   .second ::before{
     content: 'Before';
