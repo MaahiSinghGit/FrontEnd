@@ -51,4 +51,20 @@ body{
 .div5{
     background-color: crimson;
 }
+.psedo-element p::first-letter{
+    font-size: 40px;
+    font-weight: 700;
 
+}
+ .first::first-line{
+    font-weight: 500;
+
+  } 
+  .second ::before{
+    content: 'Before';
+  }
+  .second ::after{
+    content: 'After';
+    font-size: 50px;
+
+}
